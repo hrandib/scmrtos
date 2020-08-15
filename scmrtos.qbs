@@ -5,7 +5,7 @@ StaticLibrary {
     name: "scmrtos"
 
     Depends { name: 'cpp' }
-    Depends { name: 'Common options' }
+    Depends { name: 'common_options' }
     Depends { name: 'stm8lib' }
 
     property string platformPath:
